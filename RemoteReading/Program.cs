@@ -43,7 +43,7 @@ namespace RemoteReading
                     return;
                 }
                 Console.WriteLine("这是测试语句");
-                Console.WriteLine("再来一次");
+            
                 #region 初始化OMCS
                 Program.MultimediaManager = MultimediaManagerFactory.GetSingleton();
                 Program.MultimediaManager.CameraDeviceIndex = SystemSettings.Singleton.WebcamIndex;
